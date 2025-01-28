@@ -39,4 +39,37 @@ public class Student
     {
         return startId;
     }
+
+    public void setStudentFirstName(String StudentFristName)
+    // sets the student first name
+    {
+        this.studentFirstName = StudentFristName;
+    }
+
+    public void setStudentLastName(String StudentLastName)
+    {
+        // set the student last name
+        this.studentLastName = StudentLastName;
+    }
+
+    public void setMajor(String Major)
+    {
+        // sets the major
+        this.major = Major;
+    }
+
+    public void setYear(int Year)
+    {
+        // sets the year
+        this.year = Year;
+    }
+
+    public void setStarId(String StarId)
+    {
+        // sets the star id
+        this.startId = StarId;
+    }
+
+
+
 }
