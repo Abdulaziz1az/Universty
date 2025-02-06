@@ -5,6 +5,7 @@ public class Student
     String studentFirstName = "N/A";
     String studentLastName = "N/A";
     String major = "N/A";
+    int age = -1;
     int year = -1; 
     String startId = "N/A";
 
@@ -26,6 +27,12 @@ public class Student
     public String getMajor()
     {
         return major;
+    }
+
+    // gets the student Age
+    public int getAge()
+    {
+        return age;
     }
 
     // gets the year
@@ -58,6 +65,12 @@ public class Student
         this.major = Major;
     }
 
+    public void setAge(int Age)
+    {
+        // sets the age
+        this.age = Age;
+    }
+
     public void setYear(int Year)
     {
         // sets the year
@@ -68,6 +81,22 @@ public class Student
     {
         // sets the star id
         this.startId = StarId;
+    }
+
+    // Constructors empty and full
+    public  Student()
+    {
+
+    }
+
+    public  Student(String AStudentFirstName, String AStudentLastName, String AMajor, int AAGE, int AYear, String AStarId )
+    {
+        studentFirstName = AStudentFirstName;
+        studentLastName = AStudentLastName;
+        major = AMajor;
+        age = AAGE;
+        year = AYear;
+        startId = AStarId;
     }
 
 
