@@ -1,7 +1,7 @@
 // This class get the information from the students
 public class Student
 {
-    // Declaring the variables
+    // Global the variables
     String studentFirstName = "N/A";
     String studentLastName = "N/A";
     String major = "N/A";
