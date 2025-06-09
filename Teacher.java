@@ -62,5 +62,20 @@ public class Teacher {
         String msg = "";
         return msg;
     }
+
+    // Constructors 
+    public Teacher()
+    {
+
+    }
+
+    public Teacher(String AfristName, String AlastName, int Age, String AstarId, String Asubject)
+    {
+        firstName = AfristName;
+        lastName = AlastName;
+        age = Age;
+        starId = AstarId;
+        subject = Asubject;
+    }
 }
 
